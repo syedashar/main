@@ -1,6 +1,5 @@
 import axios from "axios";
-let basePath =
-  process.env.STRAPI_SERVER_PATH || process.env.NEXT_PUBLIC_STRAPI_SERVER_PATH;
+let basePath = process.env.NEXT_BASEURL || "http://115.186.185.229:5001";
 
 const axiosInstance = axios.create({ baseURL: basePath });
 console.log(basePath);
@@ -11,7 +10,6 @@ const getRequest = async (endpoint) => {
     return response.data;
   } catch (error) {
     return {}
-    console.error(error);
   }
 };
 

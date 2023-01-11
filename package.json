@@ -11,9 +11,11 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@hookform/resolvers": "^2.9.10",
     "@module-federation/nextjs-mf": "^6.0.1",
     "@mui/icons-material": "^5.10.16",
     "@mui/material": "^5.10.16",
+    "@reduxjs/toolkit": "^1.9.1",
     "chart.js": "^4.1.1",
     "classnames": "^2.3.2",
     "eslint": "8.29.0",
@@ -26,11 +28,14 @@
     "react-bootstrap": "^2.7.0",
     "react-chartjs-2": "^5.1.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.41.5",
+    "react-redux": "^8.0.5",
     "react-resize-detector": "^7.1.2",
     "sass": "^1.57.1",
     "swr": "^2.0.0",
     "webpack": "^5.75.0",
-    "webpack-merge": "^5.8.0"
+    "webpack-merge": "^5.8.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
